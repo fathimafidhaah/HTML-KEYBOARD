@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.keyboard{
+    width: 810px;
+    height: 305px;
+    background: linear-gradient(to bottom, violet,indigo,blue,green,yellow,orange,red);
+    justify-content: space-around;
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+}
+.firstline button{
+    width: 50px;
+    height: 50px;
+    background: none;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+.secondline button{
+    width: 50px;
+    height: 50px;
+    background: none;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+.secondline span1 button{
+    width: 105px; 
+    border-radius: 50px;  
+}
+.fourthline span2 button{
+    width: 100px;
+    border-radius:50px ;
+}
+.fourthline span3 button{
+    width: 110px;
+    border-radius: 50px;
+}
+.fifthline span3 button{
+    width: 130px;
+    border-radius: 50px;
+}
+.sixthline span4 button{
+    width: 265px;
+    border-radius: 50px;
+}
+button:hover{
+background-color: white;
+color: black;
+}
+
